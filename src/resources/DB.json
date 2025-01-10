@@ -1,0 +1,48 @@
+{
+    "var_string": {
+        "datatype": "String",
+        "offset": 0.0
+    },
+    "bl5": {
+        "datatype": "Bool",
+        "offset": 256.0
+    },
+    "bl4": {
+        "datatype": "Bool",
+        "offset": 256.1
+    },
+    "bl3": {
+        "datatype": "Bool",
+        "offset": 256.2
+    },
+    "bl2": {
+        "datatype": "Bool",
+        "offset": 256.3
+    },
+    "bl1": {
+        "datatype": "Bool",
+        "offset": 256.4
+    },
+    "var_bool": {
+        "datatype": "Bool",
+        "offset": 256.5
+    },
+    "byte_arr": {
+        "datatype": "Array[0..1] of Byte",
+        "offset": 258.0
+    },
+    "var_struct": {
+        "datatype": "Struct",
+        "offset": 260.0,
+        "children": {
+            "var_struct_string": {
+                "datatype": "String",
+                "offset": 260.0
+            },
+            "var_struct_bool": {
+                "datatype": "Bool",
+                "offset": 516.0
+            }
+        }
+    }
+}
